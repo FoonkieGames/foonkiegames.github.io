@@ -1,0 +1,54 @@
+<div class="col-box col-box-author">
+  <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}">
+  <div class="col-box-title name">{{ site.author }}</div>
+  <p>{{ site.profile }}</p>
+  <p class="contact">
+    {% if site.youtube_channel %}
+    <a href="https://www.youtube.com/channel/{{ site.youtube_channel }}" target="_blank">YouTube</a>
+    {% endif %}
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+    {% endif %}
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}">Email</a>
+    {% endif %}
+  </p>
+</div>
+
+<div class="col-box">
+  <div class="contentContainer">
+    <div class="progressBar">
+      <p>Gears of War: Ultimate</p>
+      <div class="shadow">
+        <div class="progressBarContainer">
+          <div class="progressBarValue value-30"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="col-box">
+  <div class="col-box-title">Newest Posts</div>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="col-box post-toc hide">
+  <div class="col-box-title">TOC</div>
+</div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- mafunk.info - sidebar -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1982928234161769"
+     data-ad-slot="6679583539"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

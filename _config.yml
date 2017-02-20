@@ -1,1 +1,36 @@
-theme: jekyll-theme-minimal
+# Site settings
+name: Foonkie Game's Blog
+title: Foonkie Games
+url: "http://foonkiegames.com"
+baseurl: ""
+description: >
+  Blog about my adventures as we create content for YouTube.
+
+#email: mafunk92@gmail.com
+author: Foonkie Games
+avatar: "//lh3.googleusercontent.com/-aWJU2EyIzzY/AAAAAAAAAAI/AAAAAAAAAEU/5IupfwNS2-4/s120-p-rw-no/photo.jpg"
+
+profile: 
+youtube_channel: UC2BWGMuxx5BnCkEcKLslO9Q
+twitter_username: foonkiegames
+disqus_shortname: mafunk92
+
+permalink: /archivers/:title
+
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jekyll-sitemap
+ - jekyll-seo-tag
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

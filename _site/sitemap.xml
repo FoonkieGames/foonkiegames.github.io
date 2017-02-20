@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/archivers/test</loc>
+<lastmod>1970-01-01T08:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/archivers/hello</loc>
+<lastmod>2014-12-30T01:00:13-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/records/reading-list</loc>
+<lastmod>2017-02-18T05:12:13-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/info/hello</loc>
+<lastmod>2017-02-18T06:12:13-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/404.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>

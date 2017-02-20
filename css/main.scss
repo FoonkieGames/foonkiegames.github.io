@@ -1,0 +1,81 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$base-font-family: "Open Sans", "Helvetica Neue", "DejaVu Sans", Arial, "PingFang SC", "Noto Sans CJK SC", "Hiragino Sans GB", "微软雅黑",  Helvetica, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$code-font-family:   Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "文泉驿等宽微米黑", "Courier New", Courier, SimSun, monospace;
+$code-font-size:     15px;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$color-link: #036;
+$color-link-hover: #069;
+
+$header-bg: #607D8B;
+$header-bg-hover: #78909C;
+$header-link: #CFD8DC;
+$header-fg: #FFF;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "easybook"
+;
+
+/*///////////////////////////////////////////////////////
+    // Progress Bars \\
+///////////////////////////////////////////////////////*/
+.progressBar {
+  margin-top: .35em;
+}
+
+.progressBar p {
+  text-transform: none;
+  font-weight: bold;
+  margin-bottom: .15em;
+}
+
+.progressBarContainer {
+  width: 100%;
+  max-width: 350px;
+  height: 1.5em;
+  background: $header-link;
+  overflow: hidden;
+  border-radius: 0px;
+  box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.progressBarValue {
+  height: 1.5em;
+  float: left;
+  background: $header-bg;
+}
+
+.value-00 { width: 0; }
+.value-10 { width: 10%; }
+.value-20 { width: 20%; }
+.value-30 { width: 30%; }
+.value-40 { width: 40%; }
+.value-50 { width: 50%; }
+.value-60 { width: 60%; }
+.value-70 { width: 70%; }
+.value-80 { width: 80%; }
+.value-90 { width: 90%; }
+.value-100 { width: 100%; }
