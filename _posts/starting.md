@@ -1,0 +1,31 @@
+---
+layout: post
+title:  Starting Point
+date:   2017-02-20 14:12:13
+categories: info
+permalink: /info/starting
+---
+
+# The Starting Point
+
+I'm starting this adventure with a background in software development with the only forms of artistic learning being in digital art classes for my general education.
+
+My system is:
+
+### PC
+* CPU - [Intel i5 2500K]()
+* GPU - [EVGA GTX 960]()
+* Motherboard - [Asus P8Z68-V]()
+* Memory - [16 GB Crossair Vengeance Blue DDR3]()
+
+### Peripherals
+* Monitor 1 - [Viewsonic VX2450]()
+* Monitor 2 - [Dell U ]()
+* Keyboard - [WASD CODE 104-key]()
+* Mouse - [Logitech G502]()
+* Headset - [Logitech G430 Headset]()
+
+
+## OBS Settings
+
+I am tinkering with OBS settings and will also try out Nvidia Shadowplay.
